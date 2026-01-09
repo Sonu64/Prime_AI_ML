@@ -1,0 +1,7 @@
+s = input("Enter string with only numbers: ")
+s = int(s)
+print(f"Type of {s} as Integer is {type(s)}")
+s = float(s)
+print(f"Type of {s} as Float is {type(s)}")
+s = str(s)
+print(f"Type of {s} as String is {type(s)}")
