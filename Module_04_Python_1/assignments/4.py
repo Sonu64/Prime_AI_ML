@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 s = input("Enter string with only numbers: ")
 s = int(s)
 print(f"Type of {s} as Integer is {type(s)}")
