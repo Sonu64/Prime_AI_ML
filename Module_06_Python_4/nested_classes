@@ -1,0 +1,26 @@
+class Computer:
+    def __init__(self, brand, cpu_model, cores):
+        self.brand = brand
+        # We create the inner class object inside the outer class constructor
+        self.cpu = self.CPU(cpu_model, cores)
+
+    def show_specs(self):
+        print(f"Computer: {self.brand}")
+        # Accessing inner class method
+        self.cpu.display()
+
+    # --- THE NESTED CLASS ---
+    class CPU:
+        def __init__(self, model, cores):
+            self.model = model
+            self.cores = cores
+
+        def display(self):
+            print(f"CPU: {self.model} with {self.cores} cores")
+
+# Usage
+my_laptop = Computer("Apple", "M2", 8)
+my_laptop.show_specs()
+
+# You can also instantiate the Inner class directly (though rarely done):
+another_cpu = Computer.CPU("Intel i9", 16)
