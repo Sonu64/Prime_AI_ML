@@ -9,4 +9,9 @@ populations = {
 with open("cities.json", "w") as f:
     json.dump(populations, f, indent=4)
 
+with open("cities.json", "r") as f:
+    print(" --- File content --- ")
+    data = json.load(f)
+    print(data)
+    print(type(data))
 
