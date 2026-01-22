@@ -6,7 +6,7 @@ try:
     with open("words.txt", "r") as f:
         lines = f.readlines()  
         for i in range(0, len(lines)):
-            if word in lines[i].lower(): # Can directly convert a line to lowercase like this
+            if word in lines[i].lower().replace(".", "").replace(",", "").replace("!", "").strip().split(): # Can directly convert a line to lowercase like this # .strip() removes the \n from the end of the line
                 lineNumbers.append(i+1)
 except FileNotFoundError as e:
     print("File to search does not exist !")
