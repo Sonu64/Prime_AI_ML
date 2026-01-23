@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Arjun Sharma",
+    "rating": "5",
+    "feedback": "Excellent build quality, perfect for my UAV project.",
+    "age": 24
+  },
+  {
+    "name": "Sneha Rao",
+    "rating": 4,
+    "feedback": "Good performance, but the setup instructions were a bit complex.",
+    "age": 29
+  },
+  {
+    "name": "Sneha Rao",
+    "rating": 4,
+    "feedback": "Good performance, but the setup instructions were a bit complex.",
+    "age": 29
+  },
+  {
+    "name": "John Doe",
+    "rating": 3,
+    "feedback": "Average product. Delivery was delayed by two days.",
+    "age": 35
+  },
+  {
+    "name": "Ishaan Verma",
+    "rating": 5,
+    "feedback": "Using this for my M.Tech thesis on swarm robotics. Highly compatible with ROS2.",
+    "age": 23
+  },
+  {
+    "name": "Dr. Kavita Iyer",
+    "rating": 2,
+    "feedback": "The sensor noise levels are higher than advertised in the datasheet. Not suitable for precision lab work.",
+    "age": 52
+  },
+  {
+    "name": "Rahul Mehta",
+    "rating": 4,
+    "feedback": "Great value for money. The aluminum chassis is sturdy.",
+    "age": 31
+  },
+  {
+    "name": "Aman Preet",
+    "rating": 1,
+    "feedback": "Received a defective unit. Still waiting for a refund after 10 days.",
+    "age": 27
+  },
+  {
+    "name": "Zoya Khan",
+    "rating": " 5",
+    "feedback": "The AI integration was seamless. Plug and play experience!"
+  },
+  {
+    "name": "Zoya Khan",
+    "rating": 5,
+    "feedback": "The AI integration was seamless. Plug and play experience!",
+    "age": 19
+  },
+  {
+    "name": "Zoya Khan",
+    "rating": 5,
+    "feedback": "The AI integration was seamless. Plug and play experience!",
+    "age": 19
+  },
+  {
+    "name": "Paramita Mandal",
+    "rating": "five ",
+    "feedback": "The AI integration was seamless. Plug and play experience!",
+    "age": 19
+  },
+  {
+    "name": "Suparna Mandal",
+    "rating": " 5  ",
+    "feedback": "The AI integration was seamless. Plug and play experience!"
+  }
+]
