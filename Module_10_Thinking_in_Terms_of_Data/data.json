@@ -1,13 +1,13 @@
 [
   {
     "name": "Arjun Sharma",
-    "rating": "5",
+    "rating": "5.4",
     "feedback": "Excellent build quality, perfect for my UAV project.",
     "age": 24
   },
   {
     "name": "Sneha Rao",
-    "rating": 4,
+    "rating": 4.4,
     "feedback": "Good performance, but the setup instructions were a bit complex.",
     "age": 29
   },
