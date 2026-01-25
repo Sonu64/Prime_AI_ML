@@ -1,4 +1,4 @@
-# Prime_AI_ML 🚀
+# Prime AI ML 🚀
 **Coursework: Artificial Intelligence, Machine Learning, and Data Science**
 
 This repository contains my assignments, live session notes, and code implementations for the Prime AI/ML/DS course.
