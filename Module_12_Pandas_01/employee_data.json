@@ -1,0 +1,58 @@
+[
+  {
+    "ID": 101,
+    "NAME": "Aarav Sharma",
+    "AGE": 28,
+    "DEPT": "Engineering",
+    "SALARY": 85000
+  },
+  {
+    "ID": 102,
+    "NAME": "Sanya Iyer",
+    "AGE": 32,
+    "DEPT": "AI/ML",
+    "SALARY": 125000
+  },
+  {
+    "ID": 103,
+    "NAME": "Vikram Singh",
+    "AGE": 45,
+    "DEPT": "Operations",
+    "SALARY": 95000
+  },
+  {
+    "ID": 104,
+    "NAME": "Meera Reddy",
+    "AGE": 24,
+    "DEPT": "Engineering",
+    "SALARY": 72000
+  },
+  {
+    "ID": 105,
+    "NAME": "Arjun Das",
+    "AGE": 29,
+    "DEPT": "Data Science",
+    "SALARY": 110000
+  },
+  {
+    "ID": 106,
+    "NAME": "Priya Kapoor",
+    "AGE": 35,
+    "DEPT": "Management",
+    "SALARY": 140000
+  },
+  {
+    "ID": 107,
+    "NAME": "Rohan Varma",
+    "AGE": 31,
+    "DEPT": "AI/ML",
+    "SALARY": 115000
+  },
+  {
+    "ID": 108,
+    "NAME": "Sneha Gupta",
+    "AGE": 27,
+    "DEPT": "DevOps",
+    "SALARY": 88000
+  }
+]
