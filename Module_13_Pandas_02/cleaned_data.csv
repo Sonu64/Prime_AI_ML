@@ -1,21 +1,22 @@
 ,id,name,age,country,gender,income
-0,18,Arjun Malhotra,35.0,India,Male,120000.0
-1,11,Amit Patel,30.0,India,Male,95000.0
-2,20,Vikram Sethi,32.57142857142857,India,Male,88000.0
-3,13,Hans Schmidt,42.0,Germany,Male,82000.0
-4,6,ANONYMOUS_USER,45.0,India,Female,73000.0
-5,15,Yuki Tanaka,32.57142857142857,Japan,Female,71000.0
-6,7,Ahmed Khan,38.0,UNKNOWN_COUNTRY,Male,68000.0
-7,4,Maria Garcia,34.0,Spain,Female,67588.23529411765
-8,16,Fatima Zahra,33.0,Egypt,Female,67588.23529411765
-9,12,Priya Sharma,32.57142857142857,India,Female,67588.23529411765
-10,2,Ananya Iyer,32.57142857142857,India,Female,62000.0
-11,8,Rachel Lee,29.0,USA,Female,62000.0
-12,17,ANONYMOUS_USER,29.0,India,Male,61000.0
-13,19,Chloe Dubois,28.0,France,Female,59000.0
-14,10,Emily Davis,31.0,USA,PREFER NOT TO SAY,58000.0
-15,1,Rahul Deshmukh,29.0,India,Male,55000.0
-16,14,Siddharth Rao,26.0,India,PREFER NOT TO SAY,52000.0
-17,5,Li Wei,27.0,China,Male,51000.0
-18,3,Alex Johnson,32.57142857142857,USA,Unknown,47000.0
-19,9,Carlos Ruiz,32.57142857142857,Mexico,Male,45000.0
+0,21,Sahra Malik,37.0,Egypt,Female,238490.0
+1,18,Arjun Malhotra,35.0,India,Male,120000.0
+2,11,Amit Patel,30.0,India,Male,95000.0
+3,20,Priya Rai,41.0,India,Female,88000.0
+4,13,Hans Schmidt,42.0,Germany,Male,82000.0
+5,12,Priya Sharma,33.375,India,Female,77082.77777777778
+6,16,Fatima Zahra,33.0,Egypt,Female,77082.77777777778
+7,4,Maria Garcia,34.0,Spain,Female,77082.77777777778
+8,6,ANONYMOUS_USER,45.0,India,Female,73000.0
+9,15,Yuki Tanaka,33.375,Japan,Female,71000.0
+10,7,Ahmed Khan,38.0,UNKNOWN_COUNTRY,Male,68000.0
+11,2,Ananya Iyer,33.375,India,Female,62000.0
+12,8,Rachel Lee,29.0,USA,Female,62000.0
+13,17,ANONYMOUS_USER,29.0,India,Male,61000.0
+14,19,Chloe Dubois,28.0,France,Female,59000.0
+15,10,Emily Davis,31.0,USA,Male,58000.0
+16,1,Rahul Deshmukh,29.0,India,Male,55000.0
+17,14,Siddharth Rao,26.0,India,PREFER NOT TO SAY,52000.0
+18,5,Li Wei,27.0,China,Male,51000.0
+19,3,Alex Johnson,33.375,USA,Unknown,47000.0
+20,9,Carlos Ruiz,33.375,Mexico,Male,45000.0
