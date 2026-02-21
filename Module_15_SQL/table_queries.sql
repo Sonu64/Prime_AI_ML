@@ -57,5 +57,71 @@ SELECT DISTINCT (age) FROM user; /*(entire group is distinct -> Here the group c
 
 
 
+/* WHERE CLAUSE -> To specify some conditions */
+INSERT INTO user 
+(id, age, username, followers, following)
+VALUES
+(102, 15, "modna_90", 10000, 45),
+(103, 15, "shruti@34", 800, 5),
+(104, 15, "kakababu!!!", 100, 0);
+
+select * from user
+where (followers >= 120);
+
+select username, followers, following from user
+where (followers >= 0 AND following > 0); /* modna, shruti */
+
+select username, age  from user
+where (age BETWEEN 15 and 22); /* Inclusive */
+
+CREATE TABLE city (
+	id INT PRIMARY KEY,
+    city VARCHAR(5000) NOT NULL,
+    user_id INT,
+    FOREIGN KEY (user_id) REFERENCES user(id)
+);
+
+insert into city 
+(id, city, user_id)
+values
+(100000, "Mumbai", 100),
+(100001, "Mumbai", 101),
+(100002, "Delhi", 102),
+(100003, "Bankura", 103),
+(100004, "Kolkata", 104);
 
 
+select user_id, city from city 
+where city IN ("Delhi", "Kolkata", "Bankura");
+
+select username, email from user
+WHERE username LIKE '%codes%';
+
+select username, email from user
+where username NOT LIKE '%codes%';
+
+/* ANY and ALL are used with subqueries specifically ! */
+
+/* LIMIT Clause */
+INSERT INTO user (id, age, username, email, followers, following)
+VALUES 
+(105, 23, 'arjun_sky', 'arjun@gmail.com', 150, 45),
+(106, 25, 'neha_codes', 'neha@yahoo.com', 1200, 300),
+(107, 19, 'rahul_vibe', 'rahul@outlook.com', 50, 100),
+(108, 30, 'sara_dev', 'sara@gmail.com', 850, 900),
+(109, 21, 'vikram_king', 'vikram@proton.me', 10, 5),
+(110, 28, 'priya_art', 'priya@gmail.com', 3400, 120),
+(111, 18, 'aman_99', 'aman@gmail.com', 0, 10),
+(112, 22, 'zoya_star', 'zoya@yahoo.com', 600, 580),
+(113, 27, 'kabir_fit', 'kabir@gmail.com', 1500, 400),
+(114, 20, 'isha_vlogs', 'isha@gmail.com', 200, 250),
+(115, 31, 'amit_pro', 'amit@corporate.com', 95, 15),
+(116, 16, 'riya_junior', 'riya@school.com', 500, 600),
+(117, 24, 'dev_ops', 'dev@linux.org', 2100, 2100),
+(118, 29, 'megha_hr', 'megha@work.com', 45, 80),
+(119, 26, 'rohit_sql', 'rohit@database.com', 300, 20);
+
+
+select username, email from user
+where age>=20 
+LIMIT 10;
