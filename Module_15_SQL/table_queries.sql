@@ -125,3 +125,43 @@ VALUES
 select username, email from user
 where age>=20 
 LIMIT 10;
+
+/* ORDER BY Clause */
+select username, age, followers from user
+order by followers desc; /*default is asc*/
+
+/* Aggregate Functions and usage of IN with Sub-queries */
+select max(followers) from user;
+select avg(age) from user;
+select count(age) from user where age >= 20;
+select count(age) from user where age IN (select min(age) from user);
+select sum(followers) from user;
+
+/* GROUP BY Clause */
+/*Count number of users with specific ages (age groups)*/
+select age, count(id), max(followers)
+from user
+group by age;
+
+select username, age from user GROUP BY age; /* ERROR !! --> Because once grouped by, aggregation function on a column is allowed only, exception being the grouped by col itself (here age)*/
+
+/* HAVING Clause --> WHERE applies condition to table, HAVING applies condition on a GROUP*/
+select age, max(followers)
+from user
+GROUP BY age
+HAVING max(followers) >= 750 /* This condition is applied to the whole group (here age group !)*/
+order by max(followers) desc;
+
+/* UPDATE Table */
+SET SQL_SAFE_UPDATES = 0;
+
+update user
+set followers = 999, following = 999
+where (followers = 0) or (following = 0);
+
+/* DELETE Table */
+delete from user
+where age = 28;
+
+/* delete * from user deletes all rows !!!!! */
+
