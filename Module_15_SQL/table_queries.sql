@@ -165,3 +165,42 @@ where age = 28;
 
 /* delete * from user deletes all rows !!!!! */
 
+/* ALTER TABLE */
+
+/* ADD COLUMN */
+alter table user 
+add column interests varchar(50) default "random";
+
+/* DROP COLUMN (delete a column) */
+alter table user
+drop column interests;
+
+/* RENAME COLUMN */
+alter table user
+change column username username VARCHAR(25) not null unique;
+/* above old and new col names are same, dtype same, constraints changed, UNIQUE added ---> But they refer to the username column ! For this Specific USE CASE MODIFY is better, as shown below*/
+alter table user
+change COLUMN followers subscribers INT default 0;
+/* above old and new col names are different, dtype and constraints kept same ---> But they refer to the username column ! */
+
+/* MODIFY COLUMN */
+alter table user
+modify following int default 10000;
+
+INSERT INTO user (id, age, username, email)
+VALUES 
+(120, 23, 'poopy', 'poop@poop.com'); /* following not provided -> Default will be 10000*/
+
+/* RENAME table */
+alter table user
+rename to app_user;
+
+alter table app_user
+rename to user;
+
+
+/* TRUNCATE TABLE removes all table data -> all or nothing */
+/* delete from user where ....some_condition.... is to delete selected rows */
+/* ONDELETE = CASCADE used in FK table, not TRUNCATE ! Don't confuse :) */
+
+
