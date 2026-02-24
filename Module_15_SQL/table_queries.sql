@@ -143,7 +143,7 @@ select age, count(id), max(followers)
 from user
 group by age;
 
-select username, age from user GROUP BY age; /* ERROR !! --> Because once grouped by, aggregation function on a column is allowed only, exception being the grouped by col itself (here age)*/
+select username, age from user GROUP BY age; /* ERROR !! --> Because once grouped by, we can select aggregate function applied columns only, exception being the grouped by col itself (here age)*/
 
 /* HAVING Clause --> WHERE applies condition to table, HAVING applies condition on a GROUP*/
 select age, max(followers)
