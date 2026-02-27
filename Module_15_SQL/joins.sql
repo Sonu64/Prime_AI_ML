@@ -84,3 +84,19 @@ on A.id = B.id;
 -- employee_id A.id == B.manager_id => Will give us those employees who are managers of a dept.
 -- as well.
 
+
+-- ----- EXCLUSIVE JOINS ------- --
+-- LEFT EXCLUSIVE JOIN
+select *
+from customers as cust
+left join orders as ord
+on cust.id = ord.customer_id
+where ord.customer_id is null;
+
+-- RIGHT EXCLUSIVE JOIN
+select *
+from customers as cust
+right join orders as ord
+on cust.id = ord.customer_id
+where cust.id is null;
+
